@@ -57,8 +57,11 @@ public:
 
 		// Cek apakah antrian kosong
 		if (FRONT == -1) {
-			cout 
+			cout << "queue is empty\n";
+			return;
 		}
+
+		cout << "\nElement in the queue are...\n";
 	}
 };
 
