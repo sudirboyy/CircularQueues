@@ -47,9 +47,15 @@ public:
 		if (FRONT == REAR) {
 			FRONT = -1;
 			REAR = -1;
-		}
 		else
 			FRONT = FRONT + ;
+		}
 	}
+	void diplay() {
+		int FRONT_position = FRONT;
+		int REAR_position = REAR;
 
+		// Ce
+	}
 };
+
