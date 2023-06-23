@@ -76,6 +76,9 @@ public:
 		}
 		else {
 			// jika FRONT_position > REAR_position, iterasi dari front hingga akhir array 
+			while (FRONT_position <= max - 1) {
+
+			}
 		}
 	}
 };
