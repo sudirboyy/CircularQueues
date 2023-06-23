@@ -10,6 +10,7 @@ public:
 		FRONT = -1;
 		REAR = -1;
 	}
+
 	void insert() {
 		int num;
 		cout << "Enter a number: ";
@@ -35,6 +36,7 @@ public:
 		}
 		queue_array[REAR] = num;
 	}
+
 	void remove() {
 		// cek apakah antrian kosong
 		if (FRONT == -1) {
@@ -51,6 +53,7 @@ public:
 			FRONT = FRONT + ;
 		}
 	}
+
 	void diplay() {
 		int FRONT_position = FRONT;
 		int REAR_position = REAR;
@@ -70,6 +73,9 @@ public:
 				FRONT_position++;
 			}
 			cout << endl;
+		}
+		else {
+			// jika FRONT_position > REAR_position, iterasi dari front hingga akhir array 
 		}
 	}
 };
