@@ -37,11 +37,19 @@ public:
 	}
 	void remove() {
 		// cek apakah antrian kosong
-		if (FRONT == -1) { 
+		if (FRONT == -1) {
 			cout << "Queue underflow\n";
 			return;
 		}
 		cout << "\nThe Element deleted rom the queue is: " << queue_array[FRONT] << "\n";
 
-		// 
+		// Cek jika antrian hanya memiliki 1 elemen
+		if (FRONT == REAR) {
+			FRONT = -1;
+			REAR = -1;
+		}
+		else
+			FRONT = FRONT + ;
+	}
+
 };
